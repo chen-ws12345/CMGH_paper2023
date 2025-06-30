@@ -1,0 +1,62 @@
+Compass version: 0.9.9.5
+Git commit: Not in Git repo
+Python Version:
+3.8.8 (default, Apr 13 2021, 12:59:45) 
+[Clang 10.0.0 ]
+Python prefix: /Users/tianyichen/opt/anaconda3
+Numpy version: 1.20.1
+Pandas version: 1.2.4
+Supplied Arguments: 
+   data: ['/Volumes/My_Passport/SMO_scData_analysis/SMO_48hr_PHX/RISC_output/expression.tsv']
+   data_mtx: None
+   model: RECON2_mat
+   species: mus_musculus
+   media: None
+   output_dir: /Volumes/My_Passport/SMO_scData_analysis/SMO_48hr_PHX/RISC_output
+   temp_dir: /Volumes/My_Passport/SMO_scData_analysis/SMO_48hr_PHX/RISC_output/_tmp
+   torque_queue: None
+   num_processes: 1
+   lambda: 0
+   single_sample: None
+   transposed: False
+   sample_range: None
+   reaction_range: None
+   metabolite_range: None
+   generate_cache: False
+   test_mode: False
+   num_threads: 1
+   and_function: mean
+   select_reactions: None
+   select_subsystems: None
+   glucose: None
+   collect: False
+   config_file: None
+   num_neighbors: 30
+   symmetric_kernel: False
+   input_weights: None
+   penalty_diffusion: knn
+   no_reactions: False
+   calc_metabolites: False
+   precache: False
+   input_knn: None
+   input_knn_distances: None
+   output_knn: None
+   latent_space: None
+   only_penalties: None
+   example_inputs: None
+   microcluster_size: None
+   microcluster_file: None
+   microcluster_data_file: None
+   detailed_perf: False
+   penalties_file: 
+   lpmethod: 4
+   advance: 2
+   save_argmaxes: False
+   list_genes: None
+   list_reactions: None
+
+COMPASS Started: 2021-09-02 20:48:42.404634
+Evaluating Reaction Penalties...
+Cache for model and media already built
+Processing 7258 samples using 1 processes
+Progress bar will update once the first sample is finished

@@ -1,0 +1,66 @@
+Compass: Single-sample mode
+Supplied Arguments: 
+   data: ['/Volumes/My_Passport/SMO_scData_analysis/SMO_48hr_PHX/RISC_output/expression.tsv']
+   data_mtx: None
+   model: RECON2_mat
+   species: mus_musculus
+   media: None
+   output_dir: /Volumes/My_Passport/SMO_scData_analysis/SMO_48hr_PHX/RISC_output
+   temp_dir: /Volumes/My_Passport/SMO_scData_analysis/SMO_48hr_PHX/RISC_output/_tmp
+   torque_queue: None
+   num_processes: 1
+   lambda: 0
+   single_sample: None
+   transposed: False
+   sample_range: None
+   reaction_range: None
+   metabolite_range: None
+   generate_cache: False
+   test_mode: False
+   num_threads: 1
+   and_function: mean
+   select_reactions: None
+   select_subsystems: None
+   glucose: None
+   collect: False
+   config_file: None
+   num_neighbors: 30
+   symmetric_kernel: False
+   input_weights: None
+   penalty_diffusion: knn
+   no_reactions: False
+   calc_metabolites: False
+   precache: False
+   input_knn: None
+   input_knn_distances: None
+   output_knn: None
+   latent_space: None
+   only_penalties: None
+   example_inputs: None
+   microcluster_size: None
+   microcluster_file: None
+   microcluster_data_file: None
+   detailed_perf: False
+   penalties_file: /Volumes/My_Passport/SMO_scData_analysis/SMO_48hr_PHX/RISC_output/_tmp/penalties.txt.gz
+   lpmethod: 4
+   advance: 2
+   save_argmaxes: False
+   list_genes: None
+   list_reactions: None
+
+COMPASS Started: 2021-09-03 02:37:17.023118
+Running COMPASS on model: RECON2_mat
+Processing Sample 32/7258: Luc_48hr_PHX_AACAAGAAGAGTCGAC-1
+Evaluating Reaction Penalties...
+Evaluating Reaction Scores...
+Evaluating Exchange/Secretion/Uptake Scores...
+Writing output files...
+Compass Penalty Time: 4.13103208299799
+Compass Reaction Time:513.3957647079988
+Processed10211reactions
+Compass Exchange Time:122.00086195800031
+Processed 915 uptake reactions
+Processed 915 secretion reactions
+COMPASS Completed Successfully
+
+Elapsed Time: 0:10:41.515500
